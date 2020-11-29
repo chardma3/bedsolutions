@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bed Solutions</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
@@ -12,9 +12,9 @@
 
 
   <body id="home">
-  <div id="navbar">
-        <a  href="#navbar">BED SOLUTIONS</a>
-        </div>
+    <div class="header">
+        <img src="./assets/images/logosida.jpg" alt="logo" class="logo">
+    </div>
     <!-- carousel -->
     <div class="container-fluid carousel-container">
      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -57,6 +57,37 @@
 </div>
     </div>
     <!-- /.carousel-->
+    <div class="pdf">
+    <button type="button" class="btn btn-secondary button-cta" href="/assets/priser.pdf">Prislista</button>
+    <a></a>
+    </div>
+     <!-- contact form -->
+    <section id="contact" class="container-fluid form-container">
+      <div class="row">
+        <div class="col-12 form-header" id="contact-button">
+            <h2>Kontakt</h2>
+            <h5> Ring oss på 0707 986 846 eller mejla oss via formularet nedan!</h5>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <form>
+              <input type="text" class="form-control" id="name" placeholder="Name" required />
+              <input type="email" class="form-control" id="emailaddress" placeholder="Email" required />
+              <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number" />
+              <textarea rows="5" class="form-control" id="message" placeholder="Message" name="message" required></textarea>
+              <div class="row text-center">
+                <div class="col form-button">
+                  <button type="submit" class="btn btn-secondary button-cta">Send!</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.contact form-->
     <footer>
             <div class="row">
                 <div class="col">

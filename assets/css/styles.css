@@ -7,15 +7,19 @@ html {
     margin:0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color:#383a3a;
+    background-color:#404040;
+    height: 100vh;
 }
 
-/* Navbar */
+h2 {
+    font-weight: bold;
+}
 
-.navbar {
+.header {
     text-align: center;
-    padding: 0; 
+    padding-top: 20px; 
 }
+
 
 .sticky {
     position: fixed;
@@ -24,16 +28,23 @@ html {
     z-index:100;
 }
 
-
+.pdf {
+    text-align: center;
+    padding-bottom: 50px; 
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+}
 /* Containers */
 
 .carousel-container {
-    height: 90vh;
     background-size: cover;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:0;  
+    padding:0; 
+    height: 60vh; 
 }
 
 .about-container {
@@ -121,12 +132,12 @@ html {
     border-radius: 23px;
     width: 160px;
     color:white;
-    background-color:black;
+    background-color:#01969b;
     font-family: 'Raleway', sans-serif;
 }
 
 .button-cta:hover {
-    background-color:#9ad8dc;
+    background-color:black;
     box-shadow: none;
 }
 
@@ -139,7 +150,7 @@ html {
 .form-header {
     margin-top: 20px;
     text-align: center;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    
 }
 
 .subtext {
@@ -147,7 +158,7 @@ html {
 }
 
 .form-group {
-    margin: 0 auto;
+   margin-top: 0;
     max-width: 70%;
 }
 
@@ -179,6 +190,7 @@ html {
 
 .copyright-container {
     text-align:center; 
+    margin-top: 40px;
 }
 
 
@@ -208,7 +220,7 @@ html {
 
 @media(min-width: 992px) {
     .form-group {
-        padding-top:30px;
+        padding-top:20px;
         margin: 0 auto;
         max-width: 50%;
         min-height:240px;
