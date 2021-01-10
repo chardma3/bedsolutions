@@ -7,7 +7,7 @@ html {
     margin:0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color:#404040;
+    background-color:white;
     height: 100vh;
 }
 
@@ -20,15 +20,15 @@ a:hover {
     text-decoration: none;
 }
 p {
-    color: white;
+    color: red;
 }
 h2 {
     font-weight: bold;
-    color: white;
+    color: red;
 }
 
 h5 {
-    color: white;
+    color: red;
 }
 
 .header {
@@ -152,7 +152,7 @@ h5 {
 
 .button-pdf {
     width: 500px;
-    color:white;
+    color:red;
     background-color:#01969b;
     font-family: 'Raleway', sans-serif;
 }
@@ -160,7 +160,7 @@ h5 {
 .button-cta {
     border-radius: 23px;
     width: 160px;
-    color:white;
+    color:red;
     background-color:#01969b;
     font-family: 'Raleway', sans-serif;
 }
@@ -232,7 +232,7 @@ h5 {
     font-size: 20px;
     line-height: 9px;
     text-align: center;
-    color:white;
+    color:red;
     background: #000000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
