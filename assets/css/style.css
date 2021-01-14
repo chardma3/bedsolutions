@@ -24,6 +24,12 @@ a {
     color: white;
 }
 
+/*
+.banner-item {
+    border-right: 1px solid white;
+}
+*/
+
 a:hover {
     color:rgb(180, 180, 180);
     text-decoration: none;
