@@ -50,13 +50,6 @@ h5 {
     color: white;
 }
 
-.pdf {
-    text-align: center;
-    margin-bottom: 40px; 
-    font-size: 50px;
-    font-weight: bold;
-}
-
 .responsive {
     max-width:100%;
     display: block;
@@ -93,9 +86,14 @@ h5 {
 }
 
 .button-pdf {
+    border-radius: 23px;
+    height: 80px;
     width: 500px;
-    color:#bd4747;
+    color:white;
+    background-color:#bd4747;
     font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .button-cta {
@@ -107,6 +105,11 @@ h5 {
 }
 
 .button-cta:hover {
+    background-color:black;
+    box-shadow: none;
+}
+
+.button-pdf:hover {
     background-color:black;
     box-shadow: none;
 }
