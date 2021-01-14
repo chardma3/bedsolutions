@@ -10,8 +10,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">(function () { emailjs.init("user_KGKzaHX1yqjZWpBpO0ZAf"); })();</script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_KGKzaHX1yqjZWpBpO0ZAf");
+        emailjs.sendForm("bs_id", "bs", {
+            name: "Claire",
+            notes: "Bed Please"
+        })
+        })();
+        </script>
+<!--
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("YOUR_USER_ID");
+      emailjs.sendForm(serviceID, templateID, templateParams, userID);
+   })();
+</script>
+-->
 </head>
 
 
@@ -189,12 +209,10 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src=" assets/js/sendEmail.js"></script>
+    <script src="./assets/js/sendEmail.js"></script>
 </body>
-
 </html>
