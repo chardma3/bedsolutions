@@ -2,7 +2,7 @@ function sendMail(contactForm) {
     emailjs.send("bs_id", "bs", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "message": contactForm.projectsummary.value
+        "message": contactForm.message.value
     })
     .then(
         function(response) {
@@ -12,6 +12,7 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+    /*
     return false; // To block from loading a new page
 }
-
+/*
