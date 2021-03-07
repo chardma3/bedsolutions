@@ -24,12 +24,6 @@ a {
     color: white;
 }
 
-/*
-.banner-item {
-    border-right: 1px solid white;
-}
-*/
-
 a:hover {
     color:rgb(180, 180, 180);
     text-decoration: none;
@@ -98,7 +92,7 @@ h1, h5 {
 .button-pdf {
     border-radius: 23px;
     height: 80px;
-    width: 500px;
+    width: 300px;
     color:white;
     background-color:#bd4747;
     font-family: 'Raleway', sans-serif;
@@ -196,12 +190,13 @@ footer {
         margin: 0 auto;
         max-width: 50%;
         min-height:240px;
-}
-
-    .package-image {
-        padding-top:10px;
     }
 }
+
+@media only screen and (max-width: 505px) {
+    .banner {
+    min-height: 75px;
+    }
 
 /*Carousel */
 .container-fluid {
