@@ -10,20 +10,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     type="text/css" />
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
       emailjs.init("user_KGKzaHX1yqjZWpBpO0ZAf");
-      emailjs.sendForm("bs_id", "bs", {
-        name: "Claire",
-        notes: "Bed Please"
-      })
     })();
   </script>
 </head>
 
 <header>
-
   <div class="header-container container-fluid">
     <div class="row banner mh-200">
       <div class="col banner-item">
@@ -95,8 +90,8 @@
     <li class="breadcrumb-item active" aria-current="page">Home</li>
   </ol>
 </nav>
-</header>
 -->
+</header>
 <body>
   <!-- carousel -->
   <div class="container-fluid carousel-container">
@@ -187,7 +182,7 @@
         <p class="px-5 pb-4">Vi har sedan 1988 designat, konstruerat och tillverkat våra egna sängskåp. Vår strävan är att hjälpa er att frigöra ytor i bostaden på ett så 
             snyggt och praktiskt sätt som möjligt. Vi har ett eget modernt utrustat snickeri för flexibel design där vi också lackar, laserar, oljar m.m. 
             i tex. furu, ek, bok och björk. Med lång erfarenhet påbyggd efter kunders önskningar och behov vill vi påstå att säljare, snickare, ytbehandlare 
-            och montörer på SovComfort kan sin sak och att vårt sortiment är det bredaste och flexiblaste som går att finna. Vi har även ett stort 
+            och montörer på Bed Solutions kan sin sak och att vårt sortiment är det bredaste och flexiblaste som går att finna. Vi har även ett stort 
             sortiment på sängar, sängramar och tillbehör kring detta.</p>
       </div>
     </div>
@@ -212,10 +207,9 @@
     <div class="form-group mx-auto">
       <div class="row">
         <div class="col text-center">
-          <form onsubmit="return sendMail(this);">
+          <form id="bs">
             <input type="text" class="form-control" id="name" placeholder="Name" required />
             <input type="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required />
-            <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number" />
             <textarea rows="5" class="form-control" id="message" placeholder="Message" name="message"
               required></textarea>
             <div class="row text-center">
